@@ -1,0 +1,223 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+body {
+    background-color: #e8e8e8;
+    background: url("/project2/img/Pictures/eclipse.jpg") 50% 190px no-repeat;
+}
+.content {
+    max-width: 841px;
+    padding: 168px 0px 137px 0px;
+    margin: 0px auto;
+}
+
+.top___content {
+    text-align: center;
+}
+
+.top__title {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin: 0 393px 20px 381px;
+    color: #758287;
+}
+
+.top__subtitle {
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0 63px 60px 57px;
+    max-width: 730px;
+    color: #273d46;
+}
+
+.middle___background {
+    box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+    margin: 0 0 90px 0;
+    background-color: #ffffff;
+}
+
+.middle_picture_1 {
+    padding: 10px 10px 10px 10px;
+    max-width: 100%;
+}
+
+.bottom___text_content {
+    font-size: 24px;
+    line-height: 40px;
+    padding: 0px 60px 0px 45px;
+    color: #52646a;
+}
+
+
+.bottom___text_content p{
+    margin: 0 0 40px 0;
+}
+
+.bottom___list_item:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 19px;
+    background-image: url("/project2/img/Icons/1.png");
+    margin-right: 10px;
+}
+
+
+.bottom___list_item{
+    font-size: 20px;
+    font-family: Arial;
+    line-height: 36px;
+    margin: 0 0 13px 0;
+    padding: 0 0 0 40px;
+}
+
+
+.bottom___list_item:nth-child(1){
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+    color: #273d46;
+}
+
+.bottom___list_item:nth-child(2){
+    font-style: italic;
+    color: #80b7b3;
+}
+
+.bottom___list_item:nth-child(3){
+    font-weight: 700;
+    color: #273d46;
+}
+
+.bottom___list_item:nth-child(4){
+    text-decoration: line-through;
+    color: #afb5b8;
+    margin-bottom: 70px;
+}
+
+
+
+.bottom___list_content2 {
+    font-size: 20px;
+    font-family: Arial;
+    line-height: 36px;
+    margin: 0 50px 13px 0;
+    padding: 0 0 0 40px;
+    color: #273d46;
+}
+
+.bottom___list_item2:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 19px;
+    background-image: url("/project2/img/Icons/1.png");
+    margin-right: 10px;
+}
+
+.bottom___list_item2{
+padding: 17px 0 0 0;
+}
+
+
+.bottom___list_item2:nth-child(2):hover{
+    color: #d55a5a;
+
+}
+
+.bottom___list_item2_red:before {
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 19px;
+    background-image: url("/project2/img/Icons/1.png");
+    margin-right: 10px;
+}
+
+
+.bottom_button {
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+    padding: 0px 30px;
+    border-radius: 24px;
+    background-color:#80b7b3;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    margin: 40px 0 0 40px;
+
+}
+
+.bottom_button_item {
+    background: no-repeat right url("/project2/img/Icons/strelka.svg");
+    padding: 0px 35px 0px 0px;
+}
+
+.bottom_button:hover {
+    background-color: #3a5856;
+    box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+}
+
+.bottom_button:active {
+    background-color: #818181;
+}
+
+.bottom__field {
+    width: 294px;
+    height: 52px;
+    border: 1px solid #b0b0b0;
+    margin-top: 124px;
+    color: white;
+}
+
+.bottom__field:hover{
+    width: 294px;
+    height: 52px;
+    border: 1px solid #7fbed5;
+    box-shadow: 0px 0px 20px -1px rgba(127,190,213,0.93);
+}
+
+
+bottom__field_input {
+    background-color: red;
+}
